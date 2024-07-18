@@ -1,0 +1,198 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    height: 80px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    height: 250px;
+}
+
+.feature {
+    text-align: center;
+    width: 200px;
+    max-width: 300px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+    background-color: #465b52;
+}
+
+.call-to-action {
+    background-color: #3acfdf51;
+    color: #fff;
+    text-align: center;
+    padding: 50px 50px;
+    height: 400px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #83b6d8;
+    color: #fff;
+}
+
+#registeredUsers {
+    margin-top: 20px;
+}
+
+#userList {
+    list-style: none;
+    padding: 0;
+}
+
+#userList li {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    padding: 20px 0;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: blanchedalmond;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover {
+    color: #e8b418;
+}
+
+footer {
+    background-color: #3acfdf51;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 50px;
+    color:black;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+
+}
+
+footer .logo {
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+footer p, footer a {
+    font-size: 14px;
+    margin: 0 0 8px 0;
+    text-decoration: none;
+    color:black;
+
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i {
+    color: #fff;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img {
+    border: 1px solid #e8b418;
+    border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+
+footer .copyright {
+    text-align: center;
+    width: 100%;
+}
